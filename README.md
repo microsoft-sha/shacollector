@@ -1,5 +1,4 @@
-# shacollector
-shacollector (Storage and High Availability area log collection tool)<BR>
+# shacollector (Storage and High Availability area log collection tool)
 Usage:<BR>
 	shacollector.bat [option] start [output folder (default c:\mslog)]<BR>
 	shacollector.bat [option] stop<BR>
