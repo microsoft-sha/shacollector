@@ -7,6 +7,8 @@ shacollector.bat [option] stop (hype-v, ***-perf and cluster-manager)<BR>
   shacollector.bat perfmon start "output folder" "sample interval [hh:mm:ss] (ex. 00:00:15)"<BR>
   shacollector.bat memory-perf start "output folder" "POOL TAG (ex. FMfn)"<BR>
   shacollector.bat support [output folder (default c:\mslog)]<BR>
+  shacollector.bat disk-space [output folder (default c:\mslog)]<BR>
+
 	<BR>
 Option:<BR>
    storage   collecting storage drivers trace. (ex storport.sys, classpnp.sys ...)<BR>
@@ -37,3 +39,4 @@ Option:<BR>
    delay-perf     collection Delay perf logs with Xperf.<BR>
    packet    collecting Network Packet Capture. (Windows Server 2008 R2 or later)<BR>
    support   collecting support information logs.<BR>
+   drive-space     collecting drive space information logs.<BR>
