@@ -77,7 +77,9 @@ Option:<BR>
       storagereplica  collecting Storage Replica information logs.<BR>
       system          collecting system information logs.<BR>
       taskscheduler   collecting task scheduler information logs.<BR>
-      virtualfc       collectiong virtual fc information.<BR>
+      virtualfc       collecting virtual fc information.<BR>
       vss             collecting vss information logs.<BR>
+      setup           collecting setup information logs.<BR>
+      fsi             collecting file system information logs.<BR>
       crash           generate blue screen of death (BSOD).<BR>
 </pre>
