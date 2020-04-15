@@ -15,6 +15,8 @@ Usage:<BR>
   shacollector.bat perf disk stop<BR>
   shacollector.bat perf delay start [output folder (default c:\mslog)]<BR>
   shacollector.bat perf delay stop<BR>
+  shacollector.bat perf heap start pid "Process ID (ex. 1234)" enable<BR>
+  shacollector.bat perf heap start [output folder (default c:\mslog)] pid "Process ID (ex. 1234)" snap<BR>
 <BR>
   shacollector.bat support all [output folder (default c:\mslog)]<BR>
   shacollector.bat support basic [output folder (default c:\mslog)]<BR>
@@ -54,6 +56,7 @@ Option:<BR>
       memory    collecting Memory perf logs with Xperf.<BR>
       disk      collecting Disk perf logs with Xperf.<BR>
       delay     collecting Delay perf logs with Xperf.<BR>
+      heap      collectiong Heap performance log with rdrleakdiag.<BR>
 <BR>
    support log option:<BR>
       all             collecting all support logs.<BR>
